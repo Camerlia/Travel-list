@@ -26,7 +26,7 @@ const App = () => {
     if (confirmDelete) setItems([]);
   }
   return (
-    <div className="bg-amber-600 h-screen p-16 text-base text-white text-center">
+    <div className="bg-amber-600 min-h-screen p-4 sm:p-16 text-base text-white text-center flex flex-col justify-center items-center">
       <Logo />
       <Form onAddItems={handleAddItems} />
       <PackingList
